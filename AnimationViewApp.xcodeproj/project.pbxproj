@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2709FB883E958A154483399E /* Pods_AnimationViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EA583CB611702B91DBAA46 /* Pods_AnimationViewApp.framework */; };
+		F323CF0428380E9D00AB5F11 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CF0328380E9A00AB5F11 /* Model.swift */; };
+		F323CF062838180E00AB5F11 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CF052838180E00AB5F11 /* DataManager.swift */; };
 		F3CC17FA2837E4CB005126C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC17F92837E4CB005126C2 /* AppDelegate.swift */; };
 		F3CC17FC2837E4CB005126C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC17FB2837E4CB005126C2 /* SceneDelegate.swift */; };
 		F3CC17FE2837E4CB005126C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC17FD2837E4CB005126C2 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 		4DCB625C0AFDC8B9F8C0911B /* Pods-AnimationViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationViewApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimationViewApp/Pods-AnimationViewApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B7F5E426512758170F2993DA /* Pods-AnimationViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationViewApp.release.xcconfig"; path = "Target Support Files/Pods-AnimationViewApp/Pods-AnimationViewApp.release.xcconfig"; sourceTree = "<group>"; };
 		E7EA583CB611702B91DBAA46 /* Pods_AnimationViewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F323CF0328380E9A00AB5F11 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F323CF052838180E00AB5F11 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		F3CC17F62837E4CB005126C2 /* AnimationViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CC17F92837E4CB005126C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CC17FB2837E4CB005126C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +60,6 @@
 				4DCB625C0AFDC8B9F8C0911B /* Pods-AnimationViewApp.debug.xcconfig */,
 				B7F5E426512758170F2993DA /* Pods-AnimationViewApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +84,8 @@
 		F3CC17F82837E4CB005126C2 /* AnimationViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				F323CF0328380E9A00AB5F11 /* Model.swift */,
+				F323CF052838180E00AB5F11 /* DataManager.swift */,
 				F3CC17F92837E4CB005126C2 /* AppDelegate.swift */,
 				F3CC17FB2837E4CB005126C2 /* SceneDelegate.swift */,
 				F3CC17FD2837E4CB005126C2 /* ViewController.swift */,
@@ -208,8 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CC17FE2837E4CB005126C2 /* ViewController.swift in Sources */,
+				F323CF062838180E00AB5F11 /* DataManager.swift in Sources */,
 				F3CC17FA2837E4CB005126C2 /* AppDelegate.swift in Sources */,
 				F3CC17FC2837E4CB005126C2 /* SceneDelegate.swift in Sources */,
+				F323CF0428380E9D00AB5F11 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
