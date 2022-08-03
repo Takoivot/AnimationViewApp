@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     @IBAction func animationButtonPressed(_ sender: UIButton) {
         animationView.animation = animations.preset
         animationView.curve = animations.curve
+        animationLabel.text = animations.description
         animationView.delay = CGFloat(animations.delay)
         animationView.force = CGFloat(animations.force)
         animationView.duration = CGFloat(animations.duration)
